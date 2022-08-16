@@ -46,7 +46,7 @@ def xoshnaw():
   id = "-".join(uuid) 
   print("\x1b[1;92m╚═➣ ID KAMU ADALAH\x1b[1;91m : "+id) 
   try: 
-    httpCaht = requests.get("https://github.com/MN4WN1-777/ignew/blob/master/list.txt").text 
+    httpCaht = requests.get("https://github.com/Ancestors45/XyberArmy/blob/main/list.txt").text 
     if id in httpCaht: 
       print("\x1b[1;96m╚═➣ STATUS ID ANDA: AKTIF \033[1;92m[✔]") 
       msg = str(os.geteuid()) 
@@ -55,7 +55,7 @@ def xoshnaw():
     else: 
       print("\x1b[38;5;248m╚═➣ ID ANDA TIDAK AKTIF \x1b[1;91m[✘]") 
       print("\x1b[38;5;208mSILAHKAN COPY ID ANDA KIRIM KE AUTHOR !!!") 
-      os.system('xdg-open https://wa.me/+2348102968639?text=BANG+SAYA+MAU+ORDER+SC+CRACK+IG+KAMU+BANG') 
+      os.system('xdg-open https://wa.me/+2349017624430?text=BANG+SAYA+MAU+ORDER+SC+CRACK+IG+KAMU+BANG') 
       time.sleep(1) 
       sys.exit() 
   except: 
@@ -76,14 +76,14 @@ def ___login___():
     print(f"{T}╚════════════════════════════════════════════════════════════════════════════════════════╝")
     ___cookie = input(f"{T}╚═➣{H} MASUKAN COOKIE :{A} ")
     if ___cookie in ['open', 'Open', 'OPEN']:
-        print(f"{T}╚═➣{M} You will be directed to the creator of this program !!!");sleep(3);os.system('xdg-open https://wa.me/+2348102968639?text=Bg+Cara+Ambil+Cookies+Ig+Kek+Mana?');___login___()
+        print(f"{T}╚═➣{M} You will be directed to the creator of this program !!!");sleep(3);os.system('xdg-open https://wa.me/+2349017624430?text=Bg+Cara+Ambil+Cookies+Ig+Kek+Mana?');___login___()
     elif ___cookie in ['', ' ']:
         exit(f"{T}[{Z}!{T}]{M} Do not Empty")
     else:
         try:
             ___userid = re.search('ds_user_id=(.*?);', ___cookie);open('Data/user.txt', 'w').write(___userid.group(1))
             ___roz = requests.get(f'https://i.instagram.com/api/v1/users/{___userid.group(1)}/info/', headers = {'user-agent': 'Mozilla/5.0 (Linux; Android 10; SM-G973F Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/86.0.4240.198 Mobile Safari/537.36 Instagram 166.1.0.42.245 Android (29/10; 420dpi; 1080x2042; samsung; SM-G973F; beyond1; exynos9820; en_GB; 256099204)', 'cookie': ___cookie}).json()['user'];open('Data/coki.txt', 'w').write(___cookie)
-            os.system('xdg-open https://wa.me/+2348102968639?text=MAKASIH+BANG+SUDAH+AKTIFIN+ID+GUA')
+            os.system('xdg-open https://wa.me/+2349017624430?text=MAKASIH+BANG+SUDAH+AKTIFIN+ID+GUA')
             print(f"{T}╚═➣{U} Welcome :{J} {___roz['full_name']}");___follow___()
         except (AttributeError, KeyError):
             exit(f"{T}╚═➣{M} COOKIE ANDA KADARLUARSA SILAHKAN PERBARUI TERLEBIH DAHULU !!!")
